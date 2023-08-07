@@ -4,6 +4,8 @@ trap 'kill $(jobs -p); exit' EXIT
 trap 'kill $(jobs -p); exit' SIGINT
 trap 'kill $(jobs -p); exit' SIGTERM
 
+python3 val_likert.py ${1} > likvaljs/files/$(ls likvaljs/files)
+
 
 # cd likvaljs
 #  python3 -m http.server 9000 &
@@ -36,7 +38,7 @@ sleep 6
 
 pdfcrop output.pdf
 
-mv output-crop.pdf vbp.pdf
+mv output-crop.pdf val_q4.pdf
 
 rm output.pdf
 rm likvaltmp
