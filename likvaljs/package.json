@@ -1,0 +1,14 @@
+{
+  "name": "057bd44c2f9dedf6",
+  "main": "057bd44c2f9dedf6@772.js",
+  "version": "772.0.0",
+  "homepage": "https://observablehq.com/d/057bd44c2f9dedf6",
+  "author": {
+    "name": "Lane Lawley's Workspace",
+    "url": "https://observablehq.com/@lane-lawley-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
